@@ -33,14 +33,49 @@
 
 /* Run an Extra Mile Easily responsive */
     .run-container{flex-direction: column;
-    height: 650px;}
+        height: 650px;
+        width: 484px;}
 
-    .run-left{text-align: center;}
+    .run-left{text-align: center;width: 100%;}
 
     .run-left button{width: 100%;}
 
-    .run-right{padding-left: 80px;}
+    .run-right{width: 100%;padding-left: 0;}
      
 /* Trainings and Exercise responsive */
 
-}
+    .training-text{width: 50%;
+        padding-top: 80px;
+        text-align: center;}
+
+    .training-images{
+        flex-direction: row;
+        grid-template-columns: repeat(4, 1fr);
+        width: 50%;
+    }
+
+    /* .training-images{width: 20%;} */
+
+/* Meet Our Team responsive */
+    .meet-text{width: 50%;
+        padding-top: 20px;
+        text-align: center;}
+
+    .training-images{
+        grid-template-columns: repeat(1, 1fr);
+        width: 50%;
+    }
+
+    .meet-cards{
+        grid-template-columns: repeat(1, 1fr);
+        width: 48%;
+    }
+
+/* Footer responsive */
+    .footer-container{
+        flex-direction: column;
+        width: 50%;
+        gap: 1px;
+    }
+
+ }
