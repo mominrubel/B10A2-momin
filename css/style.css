@@ -1,0 +1,408 @@
+*{padding: 0; margin: 0; box-sizing: border-box; font-family: inter;}
+
+
+
+/* shared css */
+.flex{display: flex;}
+
+
+/* nav bar css start */
+.nav-main{
+    max-width: 100%;
+    /* border: 2px solid  red; */
+    background-image: linear-gradient(rgb(7, 7, 7), rgb(43, 42, 42));
+}
+
+.nav-container{
+    max-width: 1000px;
+    /* border: 1px solid greenyellow; */
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.nav-left>h1{
+    font-size:xx-large;
+    font-weight:700;
+    color: rgba(230, 83, 60, 1);
+}
+
+.nav-right{
+    border: 1px solid gray;
+    background-color: rgb(27, 27, 27);
+    border-radius: 30px;
+    padding: 2px 0;
+}
+
+.nav-btn{
+    margin-left: 30px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size:medium;
+    font-weight: 200;
+    padding: 1px 1px;
+}
+
+.btn-home{
+    background-color: rgba(230, 83, 60, 1);
+    margin-left: 5px;
+    border-radius: 10px;
+    padding: 0 5px;
+}
+
+.btn-about{margin-right: 20px;
+}
+
+/* Header css start */
+.header-main{
+    width: 100%;
+    background-image: linear-gradient(to top, rgb(7, 7, 7), rgb(43, 42, 42));
+}
+
+.header-container{
+    width: 1000px;
+    height: 580px;
+    margin: 0 auto;
+    /* border: 1px solid tomato; */
+    /* margin-top: 20px; */
+    align-items: center;
+}
+
+.header-left{
+    width: 50%;
+    /* border: 1px solid yellow; */
+    font-size: xx-large;
+    font-weight: 800;
+    color: white;
+}
+
+.header-left p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: small;
+    font-weight: 200;
+    margin-top: 15px;
+}
+
+.header-right{
+    width: 50%;
+    /* border: 1px solid mediumorchid; */
+    margin-left: 80px;
+    position: relative;
+}
+
+.header-right img{
+    width: 74%;
+    margin-top: 20px;
+}
+
+.btn-join{
+    background-color: rgba(230, 83, 60, 1);
+    padding: 10px 20px;
+    color: white;
+    border-radius: 20px;
+    border: none;
+}
+
+.btn-download{
+    margin-left: 20px;
+    padding: 10px 20px;
+    color: white;
+    background-color: transparent;
+    border-radius: 20px;
+    border-color: white;
+    margin-top: 30px;
+}
+
+.header-right-icon1 {
+    height: 80px;
+    width: 180px;
+    background-color: rgba(224, 212, 212, 0.295);
+    position: absolute;
+    left: -12%;
+    top: 75%;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    text-align: left;
+    padding-left: 10px;
+    padding: 0 10px;
+    align-items: center;
+    font-weight: 200;
+}
+
+
+.header-right-icon2{
+    height: 80px;
+    width: 180px;
+    background-color: rgba(224, 212, 212, 0.295);
+    position: absolute;
+    left: 45%;
+    top: 25%;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    text-align: left;
+    padding: 10px;
+    font-weight: 200;
+}
+
+/* Change Your Habit css start */
+.change-main{
+    width: 100%;
+    background-color: black;
+}
+
+.change-container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.change-text{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.change-cards{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.change-card-item{
+    text-align: center;
+    width: 250px;
+}
+
+.change-card-item>h2{
+    color: white;
+    font-size: medium;
+}
+
+.change-card-item>p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: smaller;
+    font-weight: 100;
+}
+
+/* Run an Extra Mile Easily css start */
+.run-main{
+    width: 100%;
+    background-color: black;
+}
+
+.run-container{
+    width: 1000px;
+    height: 360px;
+    margin: 0px auto;
+    justify-content: space-between;
+    background-color: rgb(24, 23, 23);
+    border-radius: 15px;
+}
+
+.run-left{
+    padding: 50px;
+    width: 50%;
+}
+
+.run-left h1{
+    color: white;
+    font-size: xx-large;
+    font-weight: 700;
+}
+
+.run-left p{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: smaller;
+    font-weight: 100;
+}
+
+.run-left button{
+    background-color: rgba(230, 83, 60, 1);
+    border: none;
+    border-radius: 20px;
+    padding: 15px 60px;
+    color: white;
+}
+
+
+.run-right{
+    width: 400px;
+    height: 380px;
+    padding: 25px;
+    margin-left: 15px;
+}
+
+.run-right>img{
+    width: 100%;
+}
+
+/* Trainings and Exercise css start */
+.taining-main{
+    width: 100%;
+    background-color: black;
+}
+
+.training-container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.training-text>p{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: smaller;
+    font-weight: 100;
+}
+
+.training-images{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+}
+
+.training-images>img{
+    width: 100%;
+}
+
+/* Meet Our Team css */
+.meet-main{
+    width: 100%;
+    background-color: black;
+}
+
+.meet-container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.meet-text{
+    text-align: center;
+}
+
+.meet-text>p{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: smaller;
+    font-weight: 100;
+}
+
+.meet-cards>.box1{position: relative;}
+.meet-cards>.box2{position: relative;}
+.meet-cards>.box3{position: relative;}
+.meet-cards>.box4{position: relative;}
+.meet-cards>.box5{position: relative;}
+.meet-cards>.box6{position: relative;}
+
+.name>h2{color: white;}
+.name>p{color: rgba(255, 255, 255, 0.719);
+        font-size: medium;
+        font-weight: 100;}
+
+.box1>.name{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+.box2>.name{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+.box3>.name{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+.box4>.name{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+.box5>.name{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+.box6>.name{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+.meet-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    background-color: rgb(31, 28, 28);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.box1>img{width: 100%; border-radius: 10px;}
+.box2>img{width: 100%; border-radius: 10px;}
+.box3>img{width: 100%; border-radius: 10px;}
+.box4>img{width: 100%; border-radius: 10px;}
+.box5>img{width: 100%; border-radius: 10px;}
+.box6>img{width: 100%; border-radius: 10px;}
+
+/* Footer css */
+.footer-main{
+    width: 100%;
+    background-color: rgb(43, 41, 41);
+}
+
+.footer-container{
+    width: 1000px;
+    margin: 0 auto;
+    gap: 90px;
+}
+
+.footer-left>h1{
+font-size:xx-large;
+font-weight:700;
+color: rgba(230, 83, 60, 1);}
+
+.footer-left>p{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: smaller;
+    font-weight: 100;
+}
+
+.footer-container h2{
+    color: white;
+    font-size: medium;
+    padding-top: 25px;
+}
+
+.footer-container li{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: medium;
+    padding-top: 15px;
+    list-style-type: none;
+}
+
+.footer-line>hr{
+    border-bottom: 1px solid #888; 
+    width: 1000px; 
+    margin: 0 auto; 
+    margin-top: 30px;
+}
+
+.footer-line>p{
+    text-align: center;
+    padding-top: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    padding-bottom: 20px;
+}
