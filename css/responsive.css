@@ -1,0 +1,46 @@
+@media screen and (max-width: 576px) {
+/* nav bar responsive */
+    .nav-container{flex-direction: column;}
+
+/* header responsive */
+    .header-container{flex-direction: column;
+    height: 780px;}
+
+    .header-left{width: 85%;
+        margin-left: 0;
+        padding-left: 0;
+        margin-top: 30px;}
+    
+    .header-left>p{text-wrap: wrap; width: 50%;}
+
+    .header-right{width: 30%;
+        position: relative;
+        flex-direction: column;
+        left: -25%;
+        margin-left: 0;
+        padding-left: 0;}
+
+/* Change Your habit responsive */
+
+    .change-text{width: 50%;
+        padding-top: 80px;}
+
+    .change-cards{
+        grid-template-columns: repeat(1, 1fr);
+        padding-left: 120px;
+        
+    }
+
+/* Run an Extra Mile Easily responsive */
+    .run-container{flex-direction: column;
+    height: 650px;}
+
+    .run-left{text-align: center;}
+
+    .run-left button{width: 100%;}
+
+    .run-right{padding-left: 80px;}
+     
+/* Trainings and Exercise responsive */
+
+}
