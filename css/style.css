@@ -96,6 +96,18 @@
     margin-top: 20px;
 }
 
+.play{
+    color: rgb(114, 109, 109);
+    text-align: center;
+    position: absolute;
+    top: 60%;
+    left: -5%;
+}
+
+.play:hover{
+    color: white;
+}
+
 .btn-join{
     background-color: rgba(230, 83, 60, 1);
     padding: 10px 20px;
